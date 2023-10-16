@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Your Cute Font', sans-serif; /* Replace 'Your Cute Font' with the name of your preferred cute font */
+    font-family: cursive, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,7 @@ body {
 
 #container {
     text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     max-width: 600px;
 }
 
@@ -19,12 +20,14 @@ header {
     background-color: #ff77a9;
     padding: 20px;
     border-bottom: 5px solid #ff3399;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h1 {
     font-size: 36px;
     margin: 0;
     color: #ffffff; /* White text color */
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #button-bar {
@@ -32,6 +35,7 @@ h1 {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     gap: 10px;
 }
 
@@ -84,4 +88,11 @@ input[type="text"] {
 
 #submit-location-btn:hover {
     background-color: #ff77a9;
+}
+
+#container {
+    text-align: center;
+    max-width: 600px;
+    border: 2px solid #ff77a9; /* Add an outer border */
+    border-radius: 0px; /* Rounded corners for the outer border */
 }
