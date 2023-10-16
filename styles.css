@@ -89,6 +89,6 @@ input[type="text"] {
 #container {
     text-align: center;
     max-width: 600px;
-    border: 2px solid #ff77a9; /* Add an outer border */
+    border: 4px solid #ff77a9; /* Add an outer border */
     border-radius: 0px; /* Rounded corners for the outer border */
 }
